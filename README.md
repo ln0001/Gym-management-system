@@ -64,8 +64,8 @@ cd backend
    ```
 2. Update `backend/src/main/resources/application.properties` if your MySQL credentials differ. Defaults:
    - URL: `jdbc:mysql://localhost:3306/gym_db`
-   - Username: `root`
-   - Password: `Narayan@123`
+   - Username: `Your_UserName`
+   - Password: `Your_password`
 3. Build & run:
    ```bash
    mvn clean install
@@ -186,7 +186,5 @@ Login and activity events are stored in the `activity_logs` table and also writt
 5. Push to your branch
 6. Create a Pull Request
 
-## License
-
-This project is maintained on GitHub as a public repository.
+Made with ❤️ by Laxminarayan Saravade.
 
