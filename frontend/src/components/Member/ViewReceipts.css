@@ -1,0 +1,48 @@
+.view-receipts {
+  width: 100%;
+}
+
+.receipts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.receipt-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.receipt-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.receipt-details-section {
+  margin: 15px 0;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.receipt-actions {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+}
+
